@@ -9,6 +9,18 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            collectifgrandsaintmichel@gmail.com
+          value: >-
+            mailto:collectifgrandsaintmichel@gmail.com
+      social_networks:
+        instagram:
+          label: >-
+            collectifgrandstmichel
+          value: >-
+            https://instagram.com/collectifgrandstmichel
 
   taxonomies:
     administrator: administrators
