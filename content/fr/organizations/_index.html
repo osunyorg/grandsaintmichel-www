@@ -1,34 +1,35 @@
 ---
 title: >-
-  Organisations
+  Annuaire
 breadcrumb_title: >-
-  Organisations
+  Annuaire
 
 
 
-url: "/organisations/"
-slug: "organisations"
+url: "/annuaire/"
+slug: "annuaire"
 date: 2026-08-27T14:34:48+02:00
-lastmod: 2026-08-27T14:34:48+02:00
+lastmod: 2026-09-03T17:29:25+02:00
 meta:
   hugo:
-    permalink: "/organisations/"
+    permalink: "/annuaire/"
     path: "/organizations"
     file: "content/fr/organizations/_index.html"
-    slug: "organisations"
+    slug: "annuaire"
   dates:
     created_at: 2026-08-27T14:34:48+02:00
-    updated_at: 2026-08-27T14:34:48+02:00
+    updated_at: 2026-09-03T17:29:25+02:00
     published_at: 2026-08-27T14:34:48+02:00
 search:
   id: "cb562b11-ddcf-4a63-800c-c89f9c76ba24"
   about_id: "eed8f1b8-e40a-4fa9-9344-aea0c9131762"
-  url: "/organisations/"
+  url: "/annuaire/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
-    Organisations
-
+    Annuaire
+  summary: >-
+    <p>Découvrez tous les commerces du grand Saint Michel !</p>
 
 
 breadcrumbs:
@@ -36,13 +37,13 @@ breadcrumbs:
       Accueil
     path: "/"
   - title: >-
-      Organisations
+      Annuaire
 
 design:
-  full_width: false
+  full_width: true
   toc:
     present: false
-    offcanvas: false
+    offcanvas: true
 
 
 
@@ -54,15 +55,113 @@ translationKey: communication-website-page-eed8f1b8-e40a-4fa9-9344-aea0c9131762
 
 
 
-
+summary: >-
+  <p>Découvrez tous les commerces du grand Saint Michel !</p>
 header_cta:
 
 section_taxonomies:
+  - name: >-
+      Catégories
+    slug: ""
+    path: ""
+    categories:
+      - permalink: "/annuaire/categories/epicerie/"
+        path: "/organizations_categories/epicerie"
+        slug: "epicerie"
+        file: "content/fr/organizations_categories/epicerie/_index.html"
+        name: >-
+          Épicerie
+        count: 1
+      - permalink: "/annuaire/categories/textile/"
+        path: "/organizations_categories/textile"
+        slug: "textile"
+        file: "content/fr/organizations_categories/textile/_index.html"
+        name: >-
+          Textile
+        count: 1
+
 
 contents_reading_time:
   seconds: 0
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: true
+        filters: false
+
+      organizations:
+        - permalink: "/annuaire/atelier-filet-mignon/"
+          path: "/organizations/atelier-filet-mignon"
+          slug: "atelier-filet-mignon"
+          file: "content/fr/organizations/atelier-filet-mignon.html"
+
+        - permalink: "/annuaire/tista/"
+          path: "/organizations/tista"
+          slug: "tista"
+          file: "content/fr/organizations/tista.html"
+
+      quantity: 2
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      layout: map
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: true
+
+      categories:
+        - permalink: "/annuaire/categories/epicerie/"
+          path: "/organizations_categories/epicerie"
+          slug: "epicerie"
+          file: "content/fr/organizations_categories/epicerie/_index.html"
+        - permalink: "/annuaire/categories/textile/"
+          path: "/organizations_categories/textile"
+          slug: "textile"
+          file: "content/fr/organizations_categories/textile/_index.html"
+      organizations:
+        - permalink: "/annuaire/tista/"
+          path: "/organizations/tista"
+          slug: "tista"
+          file: "content/fr/organizations/tista.html"
+
+        - permalink: "/annuaire/atelier-filet-mignon/"
+          path: "/organizations/atelier-filet-mignon"
+          slug: "atelier-filet-mignon"
+          file: "content/fr/organizations/atelier-filet-mignon.html"
+
+      quantity: 2
+
+
 
 ---

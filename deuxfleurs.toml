@@ -18,3 +18,7 @@ Cache-Control = "max-age=31536000, no-transform, public"
 from = "/agenda/2026/marche-createurices/index.html"
 to = "/agenda/2026/marche-des-createurs-et-creatrices/"
 
+[[redirects]]
+from = "/organisations/index.html"
+to = "/annuaire/"
+
