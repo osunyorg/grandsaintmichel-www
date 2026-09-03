@@ -1,4 +1,6 @@
-theme: osuny
+theme: 
+  - osuny-plugin-organizations-maps
+  - osuny
 _merge: deep
 params:
   summary:
